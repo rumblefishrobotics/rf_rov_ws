@@ -1,0 +1,11 @@
+<launch>
+       <node
+       name="rf_power_monitor"
+
+       pkg="rf_power_monitor"
+
+	type="rf_power_monitor_node.py"
+	respawn="true"
+	output="screen"
+	/>
+</launch>

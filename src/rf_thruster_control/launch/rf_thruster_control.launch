@@ -1,0 +1,15 @@
+<launch>
+	<node
+	  name="rf_thruster_control_tester"
+	  pkg="rf_thruster_control_tester"
+	  type="rf_thruster_control_tester"
+	  output="screen"
+	/>
+	<node
+	  name="rf_thruster_control"
+	  pkg="rf_thruster_control"
+	  type="rf_thruster_control"
+	  respawn="true"
+	  output="screen"
+        />
+</launch>
