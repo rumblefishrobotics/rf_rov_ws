@@ -1,9 +1,4 @@
 <launch>
-       <node
-        name="rf_display"
-        pkg="rf_display"
-	type="rf_display_node.py"
-	respawn="true"
-	output="screen"
-	/>
+       <node pkg="rf_display" name="rf_display" type="rf_display_node.py" respawn="true" output="screen"/>
+       <node pkg="rf_display" name="rf_display_tester" type="rf_display_tester_node.py" respawn="true" output="screen"/>
 </launch>
