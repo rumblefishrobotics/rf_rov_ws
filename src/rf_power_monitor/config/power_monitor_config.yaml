@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# YAML Configuration file for rf_power_monitor_node
+#-----------------------------------------------------------
+
+# Sets sampling rate in Hz
+sampling_rate: 0.2
+
+# Publishing Rate - publish ever N samples
+publishing_rate: 5
