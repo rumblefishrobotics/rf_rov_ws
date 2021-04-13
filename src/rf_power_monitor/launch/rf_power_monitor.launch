@@ -1,11 +1,4 @@
 <launch>
-       <node
-       name="rf_power_monitor"
-
-       pkg="rf_power_monitor"
-
-	type="rf_power_monitor_node.py"
-	respawn="true"
-	output="screen"
-	/>
+       <node pkg="rf_power_monitor" name="rf_power_monitor" type="rf_power_monitor_node.py" respawn="true"/>
+       <node pkg="rf_power_monitor" name="rf_power_monitor_tester" type="rf_power_monitor_tester_node.py" respawn="true" output="screen"/>
 </launch>
