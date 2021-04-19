@@ -48,13 +48,12 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Generate messages in the 'msg' folder
 
-# Didn't think I needed the DIRECTORY line if I am adding the files explicitly, but
-# added it as I am debugging a catkin_make proble.  4/16/2021
 add_message_files(
    DIRECTORY msg
    FILES
    RFDisplayData.msg
    RFPowerMonitorData.msg
+   RFRovState.msg
    RFThrusterControlData.msg
    RFWatchdogStatusData.msg
 )
@@ -74,10 +73,6 @@ add_message_files(
 # )
 
 ## Generate added messages and services with any dependencies listed here
-
-# Didn't think I needed generate_messages, since Ihave add_message_files above, but 
-# added it as I am debugging a catkin_make proble.  4/16/2021
-# Also added message_runtime here
 generate_messages(
    DEPENDENCIES
    std_msgs
