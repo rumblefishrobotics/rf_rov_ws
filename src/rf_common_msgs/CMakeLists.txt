@@ -53,7 +53,7 @@ add_message_files(
    FILES
    RFDisplayData.msg
    RFPowerMonitorData.msg
-   RFRovStateData.msg
+   RFROVStateData.msg
    RFThrusterControlData.msg
    RFWatchdogStatusData.msg
 )
