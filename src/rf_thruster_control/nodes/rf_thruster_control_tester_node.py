@@ -7,7 +7,7 @@
 """
 
 import rospy
-from rf_thruster_control.msg import RFThrusterControlData
+from rf_common.msg import RFThrusterControlData
 
 ESC_GPIO_PINS = [4,17,18,27]
 

@@ -3,7 +3,7 @@ import pigpio
 import rospy
 import time
 
-from rf_thruster_control.msg import RFThrusterControlData
+from rf_common.msg import RFThrusterControlData
 
 # Resources
 # http://wiki.ros.org/roscpp_tutorials/Tutorials/UsingClassMethodsAsCallbacks
