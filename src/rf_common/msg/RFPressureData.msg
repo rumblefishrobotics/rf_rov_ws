@@ -1,2 +1,2 @@
-Float32 pressure_hPa
-Float32 temp_degc
+float pressure_hPa
+float temp_degc
