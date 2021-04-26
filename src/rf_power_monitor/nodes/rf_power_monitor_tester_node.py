@@ -7,7 +7,8 @@
 """
 
 import rospy
-from rf_power_monitor.msg import RFPowerMonitorData
+
+from rf_common.msg import RFPowerMonitorData
 
 def pm_callback(data):
     rospy.loginfo("voltage: %f, current: %f, power: %f\r\n" % (data.battery_voltage, data.current, data.power))
