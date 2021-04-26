@@ -8,7 +8,7 @@ import time
 import board
 import adafruit_ina260
 
-from rf_power_monitor.msg import RFPowerMonitorData
+from rf_common_msgs.msg import RFPowerMonitorData
 
 import numpy as np
 from scipy.ndimage.filters import uniform_filter1d
