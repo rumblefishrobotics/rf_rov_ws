@@ -19,22 +19,22 @@ Header header
 float64 thrust_direction
 int16[] thrust
 
-int16[] t
+# int16[] t
 
 
-Twist give velocity in linear and angular components
+# Twist give velocity in linear and angular components
 
 
 
-forward
-back
-
-forward right
-back right
-forward left
-back left
-
-depth hold
-
-station hold
+# forward
+# back
+#
+# forward right
+# back right
+# forward left
+# back left
+#
+# depth hold
+#
+# station hold
 

@@ -8,9 +8,10 @@ project(rf_common)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  rospy
-  std_msgs
   message_generation
+  geometry_msgs
+  std_msgs
+  rospy
 )
 
 ## System dependencies are found with CMake's conventions
@@ -76,6 +77,7 @@ add_message_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
    DEPENDENCIES
+   geometry_msgs
    std_msgs
 )
 
@@ -111,7 +113,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES rf_common
-   CATKIN_DEPENDS rospy std_msgs message_runtime
+   CATKIN_DEPENDS message_runtime geometry_msgs std_msgs rospy 
 #  DEPENDS system_lib
 )
 
