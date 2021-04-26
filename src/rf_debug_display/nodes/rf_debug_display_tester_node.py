@@ -8,9 +8,9 @@
 
 import rospy
 #from std_msgs.msg import String
-from rf_common_msgs.msg import RFDisplayData
+from rf_common.msg import RFDisplayData
 
-from rf_common_msgs.msg import RFPowerMonitorData
+from rf_common.msg import RFPowerMonitorData
 
 def publish_rf_power_messages():
     # Push out test power data

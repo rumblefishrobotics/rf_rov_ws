@@ -9,9 +9,9 @@ import subprocess
 
 import rospy
 
-from rf_common_msgs.msg import RFPowerMonitorData
-from rf_common_msgs.msg import RFThrusterControlData
-from rf_common_msgs.msg import RFWatchdogStatusData
+from rf_common.msg import RFPowerMonitorData
+from rf_common.msg import RFThrusterControlData
+from rf_common.msg import RFWatchdogStatusData
 
 from DisplaySSD1306 import DisplayLine
 from DisplaySSD1306 import DisplaySSD1306
