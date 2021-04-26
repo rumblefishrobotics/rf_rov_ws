@@ -29,7 +29,6 @@ def pressure_callback(data):
                                                                         data.screen_line1,
                                                                         data.screen_line2))
 
-
 def monitor_pressure():
     """Creates a pressure sensor node, then starts regularly publishing measured
        pressure and temperature measurements."""
